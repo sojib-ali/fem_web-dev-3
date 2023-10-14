@@ -1,0 +1,51 @@
+:root {
+    --action-color-display-frame-background: #EAF0F2;
+    --oxy: 'Oxygen', sans-serif;
+}
+
+body {
+    background: var(--action-color-display-frame-background);
+    box-sizing: border-box;
+
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+    margin: 100px 1rem 0 1rem;
+}
+
+.shadow{
+    width: 414px;
+    height: 321px;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: var(--oxy);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* Define the cursor blinking animation */
+/* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  } */
+/* 
+.blinking-cursor {
+    margin-left: 5px;
+    animation: blink 1s infinite;
+  }
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    50.1%, 100% {
+      opacity: 0;
+    }
+  } */
